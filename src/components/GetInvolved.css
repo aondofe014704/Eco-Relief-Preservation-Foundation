@@ -1,0 +1,166 @@
+.involvement-grid {
+  display: grid;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.involvement-card {
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.involvement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(126, 217, 87, 0.15);
+}
+
+.involvement-icon {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.involvement-card h2 {
+  color: var(--primary-green);
+  font-size: 20pt;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.involvement-card p {
+  font-size: 12pt;
+  line-height: 1.8;
+  color: var(--medium-gray);
+  margin-bottom: 20px;
+}
+
+.involvement-card h3 {
+  color: var(--primary-black);
+  font-size: 14pt;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.involvement-card ul {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.involvement-card ul li {
+  margin-bottom: 10px;
+  color: var(--medium-gray);
+  line-height: 1.6;
+}
+
+.requirements,
+.benefits {
+  background-color: var(--light-gray);
+  padding: 15px;
+  border-left: 4px solid var(--primary-green);
+  margin: 20px 0;
+  font-size: 11pt;
+  line-height: 1.6;
+}
+
+.involvement-card .btn-primary {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 30px auto 0;
+  padding: 15px 30px;
+  background-color: var(--primary-green);
+  color: var(--white);
+  border-radius: 5px;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.involvement-card .btn-primary:hover {
+  background-color: #6bc947;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(126, 217, 87, 0.3);
+}
+
+.how-to-help {
+  background-color: var(--light-gray);
+}
+
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.help-card {
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.help-card:hover {
+  transform: translateY(-5px);
+}
+
+.help-card h3 {
+  color: var(--primary-black);
+  font-size: 14pt;
+  margin-bottom: 15px;
+}
+
+.help-card p {
+  color: var(--medium-gray);
+  font-size: 11pt;
+  line-height: 1.6;
+}
+
+.cta-section {
+  background-color: var(--primary-black);
+  color: var(--white);
+  text-align: center;
+  padding: 60px 0;
+}
+
+.cta-section h2 {
+  font-size: 28pt;
+  margin-bottom: 15px;
+}
+
+.cta-section p {
+  font-size: 14pt;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.contact-info-cta {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14pt;
+}
+
+.contact-icon {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .contact-info-cta {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

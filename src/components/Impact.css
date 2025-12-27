@@ -1,0 +1,253 @@
+.beneficiary-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.beneficiary-card {
+  padding: 50px 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.beneficiary-card:hover {
+  transform: translateY(-10px);
+}
+
+.beneficiary-card.primary {
+  background: linear-gradient(135deg, var(--primary-green) 0%, #6bc947 100%);
+  color: var(--white);
+}
+
+.beneficiary-card.secondary {
+  background: linear-gradient(135deg, var(--primary-black) 0%, #2a2a2a 100%);
+  color: var(--white);
+}
+
+.beneficiary-number {
+  font-size: 48pt;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.beneficiary-label {
+  font-size: 16pt;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.beneficiary-card p {
+  font-size: 11pt;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.achievements {
+  background-color: var(--light-gray);
+}
+
+.achievements-table {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: var(--white);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 20px 30px;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+.achievement-row:last-child {
+  border-bottom: none;
+}
+
+.achievement-row.header {
+  background-color: var(--primary-black);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.achievement-row.completed {
+  background-color: #f0fdf4;
+}
+
+.achievement-row.completed:hover {
+  background-color: #dcfce7;
+}
+
+.achievement-row.progress {
+  background-color: #fffbeb;
+}
+
+.achievement-row.progress:hover {
+  background-color: #fef3c7;
+}
+
+.achievement-row.pending:hover {
+  background-color: var(--light-gray);
+}
+
+.achievement-milestone {
+  font-size: 11pt;
+  color: var(--primary-black);
+}
+
+.achievement-row.header .achievement-milestone,
+.achievement-row.header .achievement-status {
+  color: var(--white);
+}
+
+.achievement-status {
+  font-size: 11pt;
+  font-weight: bold;
+  text-align: right;
+}
+
+.achievement-row.completed .achievement-status {
+  color: var(--primary-green);
+}
+
+.achievement-row.progress .achievement-status {
+  color: #f59e0b;
+}
+
+.achievement-row.pending .achievement-status {
+  color: var(--medium-gray);
+}
+
+.coverage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.coverage-card {
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+.coverage-card h3 {
+  color: var(--primary-black);
+  font-size: 16pt;
+  margin-bottom: 20px;
+}
+
+.coverage-icon {
+  font-size: 64px;
+  margin: 20px 0;
+}
+
+.coverage-card ul {
+  list-style: none;
+  text-align: left;
+  margin: 25px 0;
+}
+
+.coverage-card ul li {
+  padding: 10px 0;
+  color: var(--medium-gray);
+  font-size: 11pt;
+}
+
+.coverage-card ul li strong {
+  color: var(--primary-black);
+  font-size: 12pt;
+}
+
+.coverage-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: var(--primary-green);
+  color: var(--white);
+  border-radius: 20px;
+  font-size: 10pt;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.planned-badge {
+  background-color: #f59e0b;
+}
+
+.coverage-note {
+  max-width: 800px;
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 12pt;
+  line-height: 1.8;
+  color: var(--medium-gray);
+  font-style: italic;
+}
+
+.impact-stories {
+  background-color: var(--light-gray);
+}
+
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.story-card {
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.story-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(126, 217, 87, 0.2);
+}
+
+.story-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.story-card h3 {
+  color: var(--primary-green);
+  font-size: 14pt;
+  margin-bottom: 15px;
+}
+
+.story-card p {
+  color: var(--medium-gray);
+  font-size: 11pt;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .beneficiary-stats,
+  .coverage-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievement-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .achievement-status {
+    text-align: left;
+  }
+}

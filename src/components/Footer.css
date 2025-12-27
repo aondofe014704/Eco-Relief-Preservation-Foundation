@@ -1,0 +1,144 @@
+.footer {
+  background-color: var(--primary-black);
+  color: var(--white);
+  padding: 50px 0 20px;
+  margin-top: 60px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  color: var(--primary-green);
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-logo .logo-icon {
+  font-size: 28px;
+}
+
+.footer-section p {
+  line-height: 1.8;
+  color: #cccccc;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+  color: #cccccc;
+}
+
+.footer-section ul li a {
+  color: #cccccc;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: var(--primary-green);
+}
+
+.contact-info li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.footer-social {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  margin-top: 20px;
+}
+
+.footer-social h4 {
+  color: var(--primary-green);
+  margin-bottom: 20px;
+  font-size: 14pt;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(126, 217, 87, 0.3);
+}
+
+.social-link.linkedin:hover {
+  background-color: #0077b5;
+}
+
+.social-link.facebook:hover {
+  background-color: #1877f2;
+}
+
+.social-link.youtube:hover {
+  background-color: #ff0000;
+}
+
+.social-link.instagram:hover {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-link.twitter:hover {
+  background-color: #000000;
+  border: 1px solid var(--white);
+}
+
+.social-link svg {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  grid-column: 1 / -1;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  text-align: center;
+  color: #999;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 5px 0;
+  font-size: 10pt;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}

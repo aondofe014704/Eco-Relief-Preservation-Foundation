@@ -1,0 +1,230 @@
+.aap-framework {
+  background-color: var(--light-gray);
+}
+
+.aap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.aap-card {
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.aap-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(126, 217, 87, 0.2);
+}
+
+.aap-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.aap-card h3 {
+  color: var(--primary-green);
+  font-size: 14pt;
+  margin-bottom: 15px;
+}
+
+.aap-card p {
+  color: var(--medium-gray);
+  font-size: 11pt;
+  line-height: 1.6;
+}
+
+.safeguarding-content {
+  display: grid;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.safeguarding-item {
+  background-color: var(--light-gray);
+  padding: 30px;
+  border-left: 5px solid var(--primary-green);
+  border-radius: 5px;
+}
+
+.safeguarding-item h3 {
+  color: var(--primary-black);
+  font-size: 16pt;
+  margin-bottom: 15px;
+}
+
+.safeguarding-item p {
+  color: var(--medium-gray);
+  font-size: 12pt;
+  line-height: 1.8;
+}
+
+.financial-info {
+  background-color: var(--light-gray);
+}
+
+.financial-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.bank-details,
+.financial-principles {
+  background-color: var(--white);
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bank-details h3,
+.financial-principles h3 {
+  color: var(--primary-green);
+  font-size: 16pt;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.detail-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.detail-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 15px;
+  padding: 15px;
+  background-color: var(--light-gray);
+  border-radius: 5px;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: var(--primary-black);
+  font-size: 11pt;
+}
+
+.detail-value {
+  color: var(--medium-gray);
+  font-size: 11pt;
+  font-family: 'Courier New', monospace;
+}
+
+.financial-principles ul {
+  list-style: none;
+  padding: 0;
+}
+
+.financial-principles ul li {
+  padding: 12px 0;
+  color: var(--medium-gray);
+  font-size: 11pt;
+  line-height: 1.6;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.financial-principles ul li:last-child {
+  border-bottom: none;
+}
+
+.reporting-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.reporting-card {
+  background-color: var(--light-gray);
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.reporting-card:hover {
+  transform: translateY(-5px);
+  background-color: #e8e8e8;
+}
+
+.reporting-card h3 {
+  color: var(--primary-black);
+  font-size: 14pt;
+  margin-bottom: 15px;
+}
+
+.reporting-card p {
+  color: var(--medium-gray);
+  font-size: 11pt;
+  line-height: 1.6;
+}
+
+.contact-transparency {
+  background-color: var(--primary-black);
+  color: var(--white);
+  text-align: center;
+}
+
+.contact-transparency .section-title {
+  color: var(--white);
+}
+
+.contact-transparency .section-title::after {
+  background-color: var(--primary-green);
+}
+
+.contact-text {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 12pt;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contact-details .contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 12pt;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px 30px;
+  border-radius: 5px;
+  min-width: 350px;
+}
+
+.contact-details .icon {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .financial-content {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-item {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .contact-details .contact-item {
+    min-width: auto;
+    width: 100%;
+    max-width: 400px;
+  }
+}
