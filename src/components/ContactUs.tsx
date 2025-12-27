@@ -43,7 +43,7 @@ const ContactUs = () => {
 
               <div className="contact-details-list">
                 <div className="contact-detail">
-                  <div className="contact-icon">📍</div>
+                  <div className="contact-icon"></div>
                   <div className="contact-text">
                     <h3>Address</h3>
                     <p>303 Housing Estate, Bama Road<br />Maiduguri, Borno State<br />Nigeria</p>
@@ -51,7 +51,7 @@ const ContactUs = () => {
                 </div>
 
                 <div className="contact-detail">
-                  <div className="contact-icon">📞</div>
+                  <div className="contact-icon"></div>
                   <div className="contact-text">
                     <h3>Phone</h3>
                     <p>08160015530</p>
@@ -59,15 +59,15 @@ const ContactUs = () => {
                 </div>
 
                 <div className="contact-detail">
-                  <div className="contact-icon">✉️</div>
+                  <div className="contact-icon"></div>
                   <div className="contact-text">
                     <h3>Email</h3>
-                    <p>timint646@gmail.com</p>
+                    <p>eco.relief@gmail.com</p>
                   </div>
                 </div>
 
                 <div className="contact-detail">
-                  <div className="contact-icon">🏦</div>
+                  <div className="contact-icon"></div>
                   <div className="contact-text">
                     <h3>Postal Code</h3>
                     <p>Available upon request</p>
@@ -158,7 +158,7 @@ const ContactUs = () => {
         <div className="container">
           <h2 className="section-title">Find Us</h2>
           <div className="map-placeholder">
-            <div className="map-icon">🗺️</div>
+            <div className="map-icon"></div>
             <p>303 Housing Estate, Bama Road, Maiduguri, Borno State, Nigeria</p>
           </div>
         </div>

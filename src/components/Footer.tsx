@@ -37,7 +37,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
               <li>303 Housing Estate, Bama Road</li>
               <li>Maiduguri, Borno State, Nigeria</li>
               <li>08160015530</li>
-              <li>timint646@gmail.com</li>
+              <li>eco.relief@gmail.com</li>
             </ul>
           </div>
 

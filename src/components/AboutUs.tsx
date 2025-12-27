@@ -72,12 +72,21 @@ const AboutUs = () => {
               </p>
               <ul>
                 <li>Awareness raising on reduction of carbon emission and mitigation of climate change</li>
-                <li>Provision of comprehensive protection services to women and girls affected by conflict</li>
-                <li>Provision of CVA (Cash for trade) to IDPs and refugees</li>
-                <li>Led dialogues on inclusive reintegration of Children Associated with Armed Groups (CAAG)</li>
-                <li>Active Severe Acute Malnutrition and Moderate Acute Malnutrition case finding</li>
-                <li>Trained caregivers on positive parenting and exclusive breastfeeding</li>
-                <li>Conducted cooking demonstration sessions for Pregnant and Breastfeeding Women and Girls (PBWG)</li>
+                <li>Provision of comprehensive CP/GBV case management services for women and children affected by conflict reaching 90 girls and 40 boys.</li>
+                <li>Continuous identification of women and children suffering from Severe Acute Malnutrition (SAM) and Moderate Acute Malnutrition (MAM) via active case finding.</li>
+                <li>We have trained 100 caregivers (40 men and 60 women) on positive parenting.</li>
+                <li>We have conducted 30 sessions of cooking demonstrations reaching 300 mothers.</li>
+                <li>We have trained 62 stakeholders including government social workers, partners and other relevant stakeholders on gender inclusion and disability inclusion.</li>
+                <li>We have led advocacies and for policy change and disability inclusion.</li>
+                <li>Throughout team of volunteers, we have provided referrals to health partners to improve access to healthcare services.</li>
+                <li>Our team has trained about 200 community members including women, men girls and boys on water management.</li>
+                <li>200 farmers have been reached with our water hand pilot project, were supported with training on irrigation techniques and financial support to power their pumping machines.</li>
+                <li>Cumulatively 1300 IDPs including 300 PWDs have been reached with hygiene promotions information.</li>
+                <li>Our team of trained nutrition staff and volunteers reached 2300 boys and girls with nutrition screening (active case findings)</li>
+                <li>To ensure food security, 60 farmers were given seedlings and organic manure to booter the production and availability of nutritious food and foster economic status of the households </li>
+                <li>We have built the capacity of relevant government officials and partners on incorporating climate change into their programming.</li>
+                <li>We have established, trained and strengthened community Based Climate Committees (CBCC) established information centres to disseminate early warning information, collect feedbacks and complaints, this has reached 427 individuals including People Living with disability.</li>
+                <li>We provided NFIs, Cash for rent (CVA), dignity kits to HHs as a flood anticipatory action.  And lots more. </li>
               </ul>
               <p className="impact-highlight">
                 Within this period, we reached <strong>5,000 primary beneficiaries</strong> and 
@@ -135,29 +144,25 @@ const AboutUs = () => {
             <div className="advantage-item">
               <h3>🤝 Inclusive Approach</h3>
               <p>
-                We prioritize disability inclusion, gender sensitivity, and ensure that the most 
-                vulnerable populations are reached and supported.
+                We bring the communities to the table during programming and by doing so, our implementations has been timely and tailored to the needs of the affected populations, we prioritize disability inclusion, gender inclusion, and ensure that the most vulnerable populations are reached and supported.
               </p>
             </div>
             <div className="advantage-item">
               <h3>💰 Value for Funds</h3>
               <p>
-                We ensure appropriate utilization of funds, maximizing impact per dollar spent 
-                and maintaining financial accountability.
+                We ensure appropriate utilization of funds via intentional value for money, we maximize impact per dime spent and maintaining financial accountability to our donors and the people we serve.
               </p>
             </div>
             <div className="advantage-item">
               <h3>🔍 Transparency Foundation</h3>
               <p>
-                We are rooted in transparency both to donors and the people we serve, maintaining 
-                open communication and reporting.
+                We are rooted in transparency both to donors and the people we serve, we encourage and maintaining open communication among teams and timely reporting.
               </p>
             </div>
             <div className="advantage-item">
               <h3>👥 Trained Team</h3>
               <p>
-                Our team of dedicated colleagues are well-trained on SEA (Sexual Exploitation and Abuse) 
-                and child safeguarding to ensure dignified interaction with communities.
+                Our team of dedicated colleagues are well-trained on SEA (Sexual Exploitation and Abuse), child safeguarding and lots more to ensure dignified interaction with communities. We encourage staff development through annual evaluations and recommendations on where there need to build more, we offer deliberate mentoring and coaching (hand-on) trainings to complement the need for growth. 
               </p>
             </div>
           </div>

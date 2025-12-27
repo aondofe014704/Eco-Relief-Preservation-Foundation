@@ -143,19 +143,19 @@ const Transparency = () => {
           <h2 className="section-title">Reporting & Documentation</h2>
           <div className="reporting-grid">
             <div className="reporting-card">
-              <h3>📄 Program Reports</h3>
+              <h3>Program Reports</h3>
               <p>We provide regular program reports to donors and stakeholders, documenting activities, outputs, and outcomes.</p>
             </div>
             <div className="reporting-card">
-              <h3>📈 Impact Assessments</h3>
+              <h3>Impact Assessments</h3>
               <p>We conduct impact assessments to measure the effectiveness of our interventions and inform future programming.</p>
             </div>
             <div className="reporting-card">
-              <h3>📋 Annual Reports</h3>
+              <h3>Annual Reports</h3>
               <p>We publish annual reports detailing our activities, financial performance, and impact across all sectors.</p>
             </div>
             <div className="reporting-card">
-              <h3>🔐 Data Protection</h3>
+              <h3>Data Protection</h3>
               <p>We maintain strict data protection protocols to safeguard the privacy and confidentiality of beneficiaries.</p>
             </div>
           </div>
@@ -172,15 +172,15 @@ const Transparency = () => {
           </p>
           <div className="contact-details">
             <div className="contact-item">
-              <span className="icon">📞</span>
+              <span className="icon"></span>
               <span>08160015530</span>
             </div>
             <div className="contact-item">
-              <span className="icon">✉️</span>
-              <span>timint646@gmail.com</span>
+              <span className="icon"></span>
+              <span>eco.relief@gmail.com</span>
             </div>
             <div className="contact-item">
-              <span className="icon">📍</span>
+              <span className="icon"></span>
               <span>303 Housing Estate, Bama Road, Maiduguri, Borno State</span>
             </div>
           </div>

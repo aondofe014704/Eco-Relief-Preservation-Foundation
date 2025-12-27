@@ -28,61 +28,7 @@ const Impact = () => {
         </div>
       </section>
 
-      <section className="section achievements">
-        <div className="container">
-          <h2 className="section-title">Achievements</h2>
-          <div className="achievements-table">
-            <div className="achievement-row header">
-              <div className="achievement-milestone">Milestone</div>
-              <div className="achievement-status">Status</div>
-            </div>
-            <div className="achievement-row completed">
-              <div className="achievement-milestone">Idea Phase</div>
-              <div className="achievement-status">✓ Completed</div>
-            </div>
-            <div className="achievement-row completed">
-              <div className="achievement-milestone">Incubation Phase</div>
-              <div className="achievement-status">✓ Completed</div>
-            </div>
-            <div className="achievement-row completed">
-              <div className="achievement-milestone">Name Reservation</div>
-              <div className="achievement-status">✓ Completed</div>
-            </div>
-            <div className="achievement-row completed">
-              <div className="achievement-milestone">Name Publishing</div>
-              <div className="achievement-status">✓ Completed</div>
-            </div>
-            <div className="achievement-row completed">
-              <div className="achievement-milestone">Registration with CAC</div>
-              <div className="achievement-status">✓ Completed</div>
-            </div>
-            <div className="achievement-row progress">
-              <div className="achievement-milestone">Begin Documentation</div>
-              <div className="achievement-status">⏳ In Progress</div>
-            </div>
-            <div className="achievement-row pending">
-              <div className="achievement-milestone">Anchor with a Sector</div>
-              <div className="achievement-status">○ Not Started</div>
-            </div>
-            <div className="achievement-row pending">
-              <div className="achievement-milestone">Initiate Activities</div>
-              <div className="achievement-status">○ Not Started</div>
-            </div>
-            <div className="achievement-row pending">
-              <div className="achievement-milestone">Sectors 3-4Ws Reports Sent</div>
-              <div className="achievement-status">○ Not Started</div>
-            </div>
-            <div className="achievement-row pending">
-              <div className="achievement-milestone">Registration with GOV (SEMA)</div>
-              <div className="achievement-status">○ Not Started</div>
-            </div>
-            <div className="achievement-row pending">
-              <div className="achievement-milestone">Nail a Donor</div>
-              <div className="achievement-status">○ Not Started</div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       <section className="section geographic-coverage">
         <div className="container">
@@ -95,6 +41,7 @@ const Impact = () => {
                 <li><strong>Borno State</strong></li>
                 <li>Maiduguri (Headquarters)</li>
                 <li>Bama Road Area</li>
+                <li>Benue State</li>
               </ul>
               <div className="coverage-badge">Active</div>
             </div>
