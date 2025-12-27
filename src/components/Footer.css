@@ -25,8 +25,10 @@
   margin-bottom: 15px;
 }
 
-.footer-logo .logo-icon {
-  font-size: 28px;
+.footer-logo-image {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
 }
 
 .footer-section p {

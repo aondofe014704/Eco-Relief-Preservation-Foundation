@@ -11,7 +11,7 @@ const Footer = ({ onNavigate }: FooterProps) => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <div className="logo-icon">🌍🌿</div>
+              <img src="/assets/ecologo.png" alt="ERPF Logo" className="footer-logo-image" />
               <h3>ERPF</h3>
             </div>
             <h4>
@@ -34,10 +34,10 @@ const Footer = ({ onNavigate }: FooterProps) => {
           <div className="footer-section">
             <h4>Contact Info</h4>
             <ul className="contact-info">
-              <li>📍 303 Housing Estate, Bama Road</li>
+              <li>303 Housing Estate, Bama Road</li>
               <li>Maiduguri, Borno State, Nigeria</li>
-              <li>📞 08160015530</li>
-              <li>✉️ timint646@gmail.com</li>
+              <li>08160015530</li>
+              <li>timint646@gmail.com</li>
             </ul>
           </div>
 

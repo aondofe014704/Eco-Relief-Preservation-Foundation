@@ -20,8 +20,10 @@
   cursor: pointer;
 }
 
-.logo-icon {
-  font-size: 32px;
+.logo-image {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
 }
 
 .logo-text {

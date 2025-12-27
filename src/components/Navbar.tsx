@@ -14,6 +14,7 @@ const Navbar = ({ onNavigate, currentPage }: NavbarProps) => {
     'About Us',
     'Our Work',
     'Impact',
+    'Gallery',
     'Get Involved',
     'Transparency',
     'News & Updates',
@@ -24,7 +25,7 @@ const Navbar = ({ onNavigate, currentPage }: NavbarProps) => {
     <nav className="navbar">
       <div className="container navbar-container">
         <div className="navbar-logo" onClick={() => onNavigate('Home')}>
-          <div className="logo-icon">🌍🌿</div>
+          <img src="/assets/ecologo.png" alt="ERPF Logo" className="logo-image" />
           <div className="logo-text">
             <span className="logo-name">ERPF</span>
             <span className="logo-subtitle">Eco Relief Preservation Foundation</span>

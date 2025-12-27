@@ -90,7 +90,7 @@ const Impact = () => {
           <div className="coverage-grid">
             <div className="coverage-card current">
               <h3>Current Operations</h3>
-              <div className="coverage-icon">📍</div>
+              <div className="coverage-icon"></div>
               <ul>
                 <li><strong>Borno State</strong></li>
                 <li>Maiduguri (Headquarters)</li>
@@ -100,7 +100,7 @@ const Impact = () => {
             </div>
             <div className="coverage-card planned">
               <h3>2026 Expansion Plan</h3>
-              <div className="coverage-icon">🗺️</div>
+              <div className="coverage-icon"></div>
               <ul>
                 <li><strong>Adamawa State</strong></li>
                 <li><strong>Yobe State</strong></li>
