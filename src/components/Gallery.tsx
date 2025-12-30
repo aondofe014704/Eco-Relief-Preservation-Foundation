@@ -6,6 +6,7 @@ interface TeamMember {
   name: string;
   position: string;
   bio: string;
+  imageUrl?: string; // Cloudinary URL for team member photo
 }
 
 interface GalleryImage {
@@ -15,6 +16,7 @@ interface GalleryImage {
   description: string;
   location: string;
   date: string;
+  imageUrl?: string; // Cloudinary URL for field activity photo
 }
 
 const Gallery = () => {
@@ -29,49 +31,57 @@ const Gallery = () => {
       id: 1,
       name: 'Dr. Collins Waseen',
       position: 'Executive Director',
-      bio: 'Leading ERPF\'s strategic vision and humanitarian operations across Nigeria. Over 15 years of experience in humanitarian response and development.'
+      bio: 'Leading ERPF\'s strategic vision and humanitarian operations across Nigeria. Over 15 years of experience in humanitarian response and development.',
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1765027493/storys/nupepkecpxcq5lsxlc4w.png' // Add Cloudinary URL here
     },
     {
       id: 2,
       name: 'Adasu Nicholas Ngutor',
       position: 'Director of Programs',
-      bio: 'Oversees all program implementation across Protection, Health, WASH, Nutrition, and Climate sectors. Expert in multisectoral humanitarian coordination.'
+      bio: 'Oversees all program implementation across Protection, Health, WASH, Nutrition, and Climate sectors. Expert in multisectoral humanitarian coordination.',
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1765027493/storys/nupepkecpxcq5lsxlc4w.png' // Add Cloudinary URL here
     },
     {
       id: 3,
       name: 'Adasu Seember Joy',
       position: 'Head of Protection',
-      bio: 'Leads child protection and GBV response programs. Specialized in case management and psychosocial support for vulnerable populations.'
+      bio: 'Leads child protection and GBV response programs. Specialized in case management and psychosocial support for vulnerable populations.',
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1765027493/storys/nupepkecpxcq5lsxlc4w.png' // Add Cloudinary URL here
     },
     {
       id: 4,
       name: 'James Brown',
       position: 'Head of Health & Nutrition',
-      bio: 'Manages health and nutrition interventions. Expert in maternal and child health, emergency health response, and nutrition programming.'
+      bio: 'Manages health and nutrition interventions. Expert in maternal and child health, emergency health response, and nutrition programming.',
+      imageUrl: '' // Add Cloudinary URL here
     },
     {
       id: 5,
       name: 'Perry Wizz',
       position: 'WASH Coordinator',
-      bio: 'Coordinates water, sanitation, and hygiene programs. Specialized in emergency WASH response and community-led total sanitation.'
+      bio: 'Coordinates water, sanitation, and hygiene programs. Specialized in emergency WASH response and community-led total sanitation.',
+      imageUrl: '' // Add Cloudinary URL here
     },
     {
       id: 6,
       name: 'Jack Robinson',
       position: 'Climate & Environment Lead',
-      bio: 'Leads climate change mitigation and environmental sustainability initiatives. Expert in climate-smart agriculture and community resilience.'
+      bio: 'Leads climate change mitigation and environmental sustainability initiatives. Expert in climate-smart agriculture and community resilience.',
+      imageUrl: '' // Add Cloudinary URL here
     },
     {
       id: 7,
       name: 'Jon Snow',
       position: 'Finance & Administration Manager',
-      bio: 'Ensures financial accountability and operational efficiency. Manages budgets, compliance, and value for money across all programs.'
+      bio: 'Ensures financial accountability and operational efficiency. Manages budgets, compliance, and value for money across all programs.',
+      imageUrl: '' // Add Cloudinary URL here
     },
     {
       id: 8,
       name: 'Jerry White',
       position: 'Monitoring & Evaluation Officer',
-      bio: 'Leads M&E systems, data collection, and impact assessment. Ensures accountability to affected populations and evidence-based programming.'
+      bio: 'Leads M&E systems, data collection, and impact assessment. Ensures accountability to affected populations and evidence-based programming.',
+      imageUrl: '' // Add Cloudinary URL here
     }
   ];
 
@@ -82,7 +92,8 @@ const Gallery = () => {
       title: 'Child Protection Case Management',
       description: 'Our trained case workers providing comprehensive support to vulnerable children in conflict-affected communities. This session focuses on psychosocial support and ensuring children\'s rights are protected.',
       location: 'Maiduguri, Borno State',
-      date: 'March 2025'
+      date: 'March 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 2,
@@ -90,7 +101,8 @@ const Gallery = () => {
       title: 'GBV Awareness Campaign',
       description: 'Community awareness session on Gender-Based Violence prevention. Women and girls learning about their rights and available support services in a safe, confidential environment.',
       location: 'Bama Road Community',
-      date: 'February 2025'
+      date: 'February 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 3,
@@ -98,7 +110,8 @@ const Gallery = () => {
       title: 'Maternal Health Clinic',
       description: 'Providing essential healthcare services to pregnant and breastfeeding mothers. Our health team conducts regular check-ups and health education sessions to reduce maternal mortality.',
       location: 'Housing Estate Health Center',
-      date: 'March 2025'
+      date: 'March 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 4,
@@ -106,7 +119,8 @@ const Gallery = () => {
       title: 'Immunization Campaign',
       description: 'Mass immunization drive reaching children in remote communities. Our mobile health team ensures every child receives life-saving vaccines regardless of their location.',
       location: 'Rural Borno Communities',
-      date: 'January 2025'
+      date: 'January 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 5,
@@ -114,7 +128,8 @@ const Gallery = () => {
       title: 'Clean Water Access Point',
       description: 'Newly installed water point providing safe drinking water to over 500 families. Community members trained on water safety and maintenance of the facility.',
       location: 'IDP Settlement, Maiduguri',
-      date: 'February 2025'
+      date: 'February 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 6,
@@ -122,7 +137,8 @@ const Gallery = () => {
       title: 'Hygiene Education Session',
       description: 'Interactive hygiene education with children learning proper handwashing techniques. Distribution of hygiene kits including soap, sanitizers, and educational materials.',
       location: 'Community School, Borno',
-      date: 'March 2025'
+      date: 'March 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 7,
@@ -130,7 +146,8 @@ const Gallery = () => {
       title: 'Cooking Demonstration for Mothers',
       description: 'Pregnant and breastfeeding women learning to prepare nutritious meals using locally available ingredients like Tom Brown. Emphasis on maternal and child nutrition.',
       location: 'Women\'s Center, Maiduguri',
-      date: 'February 2025'
+      date: 'February 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 8,
@@ -138,7 +155,8 @@ const Gallery = () => {
       title: 'Malnutrition Screening',
       description: 'Active case finding for Severe Acute Malnutrition (SAM) and Moderate Acute Malnutrition (MAM). Children identified receive immediate nutritional support and follow-up care.',
       location: 'Mobile Clinic, Borno State',
-      date: 'March 2025'
+      date: 'March 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 9,
@@ -146,7 +164,8 @@ const Gallery = () => {
       title: 'Climate-Smart Agriculture Training',
       description: 'Farmers receiving training on sustainable agricultural practices, water management, and agroforestry. Building community resilience to climate change impacts.',
       location: 'Agricultural Community, Borno',
-      date: 'January 2025'
+      date: 'January 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 10,
@@ -154,7 +173,8 @@ const Gallery = () => {
       title: 'Tree Planting Initiative',
       description: 'Community-led tree planting campaign as part of our environmental sustainability program. Over 1,000 trees planted to combat desertification and improve air quality.',
       location: 'Multiple Communities, Borno',
-      date: 'March 2025'
+      date: 'March 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 11,
@@ -162,7 +182,8 @@ const Gallery = () => {
       title: 'Cash for Trade Distribution',
       description: 'Empowering IDPs and refugees through Cash for Trade (CVA) program. Recipients using funds to start small businesses and rebuild their livelihoods with dignity.',
       location: 'IDP Camp, Maiduguri',
-      date: 'February 2025'
+      date: 'February 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     },
     {
       id: 12,
@@ -170,7 +191,8 @@ const Gallery = () => {
       title: 'Community Dialogue Session',
       description: 'Inclusive dialogue on reintegration of Children Formerly Associated with Armed Groups (CAFAAGs). Community leaders, parents, and stakeholders working together for peaceful reintegration.',
       location: 'Community Hall, Borno',
-      date: 'January 2025'
+      date: 'January 2025',
+      imageUrl: '' // Add your Cloudinary URL here
     }
   ];
 
@@ -205,7 +227,11 @@ const Gallery = () => {
                 onClick={() => setSelectedTeamMember(member.id)}
               >
                 <div className="team-photo-placeholder">
-                  <div className="photo-icon">👤</div>
+                  {member.imageUrl ? (
+                    <img src={member.imageUrl} alt={member.name} className="team-photo" />
+                  ) : (
+                    <div className="photo-icon">👤</div>
+                  )}
                   <div className="photo-overlay">
                     <span className="view-profile">View Profile</span>
                   </div>
@@ -250,7 +276,11 @@ const Gallery = () => {
                 onClick={() => setLightboxImage(image.id)}
               >
                 <div className="image-placeholder">
-                  <div className="placeholder-icon">📷</div>
+                  {image.imageUrl ? (
+                    <img src={image.imageUrl} alt={image.title} className="gallery-photo" />
+                  ) : (
+                    <div className="placeholder-icon">📷</div>
+                  )}
                   <div className="image-overlay">
                     <span className="view-text">Click to view details</span>
                   </div>
@@ -280,8 +310,18 @@ const Gallery = () => {
             {teamMembers.find(member => member.id === selectedTeamMember) && (
               <div className="team-lightbox-details">
                 <div className="team-lightbox-photo">
-                  <div className="photo-icon-large">👤</div>
-                  <p className="placeholder-text">Team Member Photo</p>
+                  {teamMembers.find(member => member.id === selectedTeamMember)?.imageUrl ? (
+                    <img 
+                      src={teamMembers.find(member => member.id === selectedTeamMember)?.imageUrl} 
+                      alt={teamMembers.find(member => member.id === selectedTeamMember)?.name}
+                      className="team-photo-large" 
+                    />
+                  ) : (
+                    <>
+                      <div className="photo-icon-large">👤</div>
+                      <p className="placeholder-text">Team Member Photo</p>
+                    </>
+                  )}
                 </div>
                 <div className="team-lightbox-info">
                   <h2>{teamMembers.find(member => member.id === selectedTeamMember)?.name}</h2>
@@ -307,8 +347,18 @@ const Gallery = () => {
             {galleryImages.find(img => img.id === lightboxImage) && (
               <div className="lightbox-details">
                 <div className="lightbox-image-placeholder">
-                  <div className="placeholder-icon-large">📷</div>
-                  <p className="placeholder-text">Field Activity Photo</p>
+                  {galleryImages.find(img => img.id === lightboxImage)?.imageUrl ? (
+                    <img 
+                      src={galleryImages.find(img => img.id === lightboxImage)?.imageUrl} 
+                      alt={galleryImages.find(img => img.id === lightboxImage)?.title}
+                      className="gallery-photo-large" 
+                    />
+                  ) : (
+                    <>
+                      <div className="placeholder-icon-large">📷</div>
+                      <p className="placeholder-text">Field Activity Photo</p>
+                    </>
+                  )}
                 </div>
                 <div className="lightbox-info">
                   <span className="lightbox-category">
