@@ -29,59 +29,63 @@ const Gallery = () => {
   const teamMembers: TeamMember[] = [
     {
       id: 1,
-      name: 'Dr. Collins Waseen',
-      position: 'Executive Director',
-      bio: 'Leading ERPF\'s strategic vision and humanitarian operations across Nigeria. Over 15 years of experience in humanitarian response and development.',
-      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1765027493/storys/nupepkecpxcq5lsxlc4w.png' // Add Cloudinary URL here
+      name: 'Timin Wasen Collins',
+      position: 'Principal Officer',
+      bio: `My professional journey has been profoundly shaped by a dedication to addressing the complex challenges of displacement in Northeast Nigeria. Witnessing firsthand the devastating impact of cultural norms, social beliefs, insurgency, and climate change—leading to vulnerable children sleeping unprotected on streets—has ignited a passion for creating durable solutions. As a Botanist by academic background with 8 years of hands-on experience in Humanitarian Development and Peace (HDP) Nexus programs, I am driven by a commitment to protect displaced populations and foster resilient communities. My personal experience of displacement due to the September 2024 floods in Maiduguri has further solidified my resolve to champion climate change mitigation and early warning systems. My expertise spans the entire project cycle, from needs assessment and fundraising to advocacy and implementation. I am particularly proud of leading the successful advocacy effort in Yobe State (2024, NHF-supported) that resulted in the adoption and enforcement of the Disability Bill, promoting crucial inclusive policies. I have also led life-saving assistance reaching over 10,000 direct beneficiaries in IDP and host communities. Holding certifications in Project Management (UC Irvine) and Health in Complex Humanitarian Emergencies (Emory University), and recognized as an HDP Nexus Practitioner, I am equipped to contribute meaningfully to initiatives that address the root causes of displacement and build sustainable futures.`,
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767057949/wako_yuki5o.jpg'
     },
     {
       id: 2,
-      name: 'Adasu Nicholas Ngutor',
-      position: 'Director of Programs',
-      bio: 'Oversees all program implementation across Protection, Health, WASH, Nutrition, and Climate sectors. Expert in multisectoral humanitarian coordination.',
-      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1765027493/storys/nupepkecpxcq5lsxlc4w.png' // Add Cloudinary URL here
+      name: 'Adasu Nicolas Ngutor',
+      position: 'Chief Head Of Operations',
+      bio: `As an Operations and Administration specialist with a background in Chemical Engineering, I have always believed that the most effective humanitarian solutions are born at the intersection of empathy and analytical rigor. Over the past five years in the Northeast Nigeria response, I have applied engineering principles problem solving, data analysis, process improvement, and risk management to ensure that aid reaches those who need it most efficiently. Nowhere is this commitment to efficiency more visible than at ERPF. ERPF is not just an NGO; it is a model of institutional integrity. In a landscape focused on localization as in Nigeria, ERPF distinguishes itself through robust internal controls, meticulous documentation, and an unwavering adherence to Value for Money (VfM) principles. I am immensely proud to work alongside a team that I regard as one of the most hardworking and compliant in the sector. The driving force behind our success is the extraordinary commitment of our Senior Management Team (SMT) and Board of Trustees (BOTs). Through their self-funding and strategic vision, ERPF has continued to scale its impact year on year. As we look towards our goals for 2026, the trajectory of this organization serves as a powerful reminder of what dedicated local leadership can achieve.`,
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058253/sly_cqee1m.jpg'
     },
     {
       id: 3,
-      name: 'Adasu Seember Joy',
-      position: 'Head of Protection',
-      bio: 'Leads child protection and GBV response programs. Specialized in case management and psychosocial support for vulnerable populations.',
-      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1765027493/storys/nupepkecpxcq5lsxlc4w.png' // Add Cloudinary URL here
+      name: 'Songu Jacob A.',
+      position: 'Head Of ICT',
+      bio: `I am a Software Engineer and Humanitarian ICT Lead currently serving as Head of ICT at the Eco Relief Preservation Foundation (ERPF). My work sits at the intersection of technology, communication, and humanitarian impact—where digital systems are not just tools, but enablers of efficiency, accountability, and service delivery.
+
+With hands-on experience supporting humanitarian operations in Northeast Nigeria, I design, manage, and maintain ICT infrastructures that power communication, information management, digital presence, and operational workflows. From organizational email systems, networks, and websites to social media platforms, IEC materials, and digital documentation, I ensure that technology works reliably for people on the ground.
+
+I am deeply committed to value-for-money principles, strong internal controls, and secure information systems. I thrive in environments that demand independence, analytical thinking, confidentiality, and adaptability—especially under pressure. My goal is simple: to leverage technology and communication to strengthen institutions, amplify impact, and support humanitarian missions with clarity, speed, and integrity.`,
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767094331/jack_czfva7.jpg'
     },
-    {
-      id: 4,
-      name: 'James Brown',
-      position: 'Head of Health & Nutrition',
-      bio: 'Manages health and nutrition interventions. Expert in maternal and child health, emergency health response, and nutrition programming.',
-      imageUrl: '' // Add Cloudinary URL here
-    },
-    {
-      id: 5,
-      name: 'Perry Wizz',
-      position: 'WASH Coordinator',
-      bio: 'Coordinates water, sanitation, and hygiene programs. Specialized in emergency WASH response and community-led total sanitation.',
-      imageUrl: '' // Add Cloudinary URL here
-    },
-    {
-      id: 6,
-      name: 'Jack Robinson',
-      position: 'Climate & Environment Lead',
-      bio: 'Leads climate change mitigation and environmental sustainability initiatives. Expert in climate-smart agriculture and community resilience.',
-      imageUrl: '' // Add Cloudinary URL here
-    },
-    {
-      id: 7,
-      name: 'Jon Snow',
-      position: 'Finance & Administration Manager',
-      bio: 'Ensures financial accountability and operational efficiency. Manages budgets, compliance, and value for money across all programs.',
-      imageUrl: '' // Add Cloudinary URL here
-    },
+    // {
+    //   id: 4,
+    //   name: 'James Brown',
+    //   position: 'Head of Health & Nutrition',
+    //   bio: 'Manages health and nutrition interventions. Expert in maternal and child health, emergency health response, and nutrition programming.',
+    //   imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058253/sly_cqee1m.jpg' // Add Cloudinary URL here
+    // },
+    // {
+    //   id: 5,
+    //   name: 'Perry Wizz',
+    //   position: 'WASH Coordinator',
+    //   bio: 'Coordinates water, sanitation, and hygiene programs. Specialized in emergency WASH response and community-led total sanitation.',
+    //   imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058253/sly_cqee1m.jpg' // Add Cloudinary URL here
+    // },
+    // {
+    //   id: 6,
+    //   name: 'Jack Robinson',
+    //   position: 'Climate & Environment Lead',
+    //   bio: 'Leads climate change mitigation and environmental sustainability initiatives. Expert in climate-smart agriculture and community resilience.',
+    //   imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058253/sly_cqee1m.jpg' // Add Cloudinary URL here
+    // },
+    // {
+    //   id: 7,
+    //   name: 'Jon Snow',
+    //   position: 'Finance & Administration Manager',
+    //   bio: 'Ensures financial accountability and operational efficiency. Manages budgets, compliance, and value for money across all programs.',
+    //   imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058253/sly_cqee1m.jpg' // Add Cloudinary URL here
+    // },
     {
       id: 8,
       name: 'Jerry White',
       position: 'Monitoring & Evaluation Officer',
       bio: 'Leads M&E systems, data collection, and impact assessment. Ensures accountability to affected populations and evidence-based programming.',
-      imageUrl: '' // Add Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058253/sly_cqee1m.jpg' // Add Cloudinary URL here
     }
   ];
 
@@ -93,7 +97,7 @@ const Gallery = () => {
       description: 'Our trained case workers providing comprehensive support to vulnerable children in conflict-affected communities. This session focuses on psychosocial support and ensuring children\'s rights are protected.',
       location: 'Maiduguri, Borno State',
       date: 'March 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 2,
@@ -102,7 +106,7 @@ const Gallery = () => {
       description: 'Community awareness session on Gender-Based Violence prevention. Women and girls learning about their rights and available support services in a safe, confidential environment.',
       location: 'Bama Road Community',
       date: 'February 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 3,
@@ -111,7 +115,7 @@ const Gallery = () => {
       description: 'Providing essential healthcare services to pregnant and breastfeeding mothers. Our health team conducts regular check-ups and health education sessions to reduce maternal mortality.',
       location: 'Housing Estate Health Center',
       date: 'March 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 4,
@@ -120,7 +124,7 @@ const Gallery = () => {
       description: 'Mass immunization drive reaching children in remote communities. Our mobile health team ensures every child receives life-saving vaccines regardless of their location.',
       location: 'Rural Borno Communities',
       date: 'January 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 5,
@@ -129,7 +133,7 @@ const Gallery = () => {
       description: 'Newly installed water point providing safe drinking water to over 500 families. Community members trained on water safety and maintenance of the facility.',
       location: 'IDP Settlement, Maiduguri',
       date: 'February 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 6,
@@ -138,7 +142,7 @@ const Gallery = () => {
       description: 'Interactive hygiene education with children learning proper handwashing techniques. Distribution of hygiene kits including soap, sanitizers, and educational materials.',
       location: 'Community School, Borno',
       date: 'March 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 7,
@@ -147,7 +151,7 @@ const Gallery = () => {
       description: 'Pregnant and breastfeeding women learning to prepare nutritious meals using locally available ingredients like Tom Brown. Emphasis on maternal and child nutrition.',
       location: 'Women\'s Center, Maiduguri',
       date: 'February 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 8,
@@ -156,7 +160,7 @@ const Gallery = () => {
       description: 'Active case finding for Severe Acute Malnutrition (SAM) and Moderate Acute Malnutrition (MAM). Children identified receive immediate nutritional support and follow-up care.',
       location: 'Mobile Clinic, Borno State',
       date: 'March 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 9,
@@ -165,7 +169,7 @@ const Gallery = () => {
       description: 'Farmers receiving training on sustainable agricultural practices, water management, and agroforestry. Building community resilience to climate change impacts.',
       location: 'Agricultural Community, Borno',
       date: 'January 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 10,
@@ -174,7 +178,7 @@ const Gallery = () => {
       description: 'Community-led tree planting campaign as part of our environmental sustainability program. Over 1,000 trees planted to combat desertification and improve air quality.',
       location: 'Multiple Communities, Borno',
       date: 'March 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 11,
@@ -183,7 +187,7 @@ const Gallery = () => {
       description: 'Empowering IDPs and refugees through Cash for Trade (CVA) program. Recipients using funds to start small businesses and rebuild their livelihoods with dignity.',
       location: 'IDP Camp, Maiduguri',
       date: 'February 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     },
     {
       id: 12,
@@ -192,7 +196,7 @@ const Gallery = () => {
       description: 'Inclusive dialogue on reintegration of Children Formerly Associated with Armed Groups (CAFAAGs). Community leaders, parents, and stakeholders working together for peaceful reintegration.',
       location: 'Community Hall, Borno',
       date: 'January 2025',
-      imageUrl: '' // Add your Cloudinary URL here
+      imageUrl: 'https://res.cloudinary.com/dejlekubm/image/upload/v1767058760/women_wacscv.jpg' // Add your Cloudinary URL here
     }
   ];
 

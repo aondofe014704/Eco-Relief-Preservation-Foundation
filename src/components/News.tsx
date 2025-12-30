@@ -84,7 +84,7 @@ const News = () => {
 
       <section className="section impact-stories-section">
         <div className="container">
-          <h2 className="section-title">Community Stories</h2>
+          <h2 className="section-title">Our Success Stories</h2>
           <p className="section-intro">
             Real stories of resilience, hope, and transformation from the communities we serve
           </p>

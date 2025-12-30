@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './Home.css';
 
 interface HomeProps {
@@ -5,6 +6,8 @@ interface HomeProps {
 }
 
 const Home = ({ onNavigate }: HomeProps) => {
+  const [showFullText, setShowFullText] = useState(false);
+
   return (
     <div className="home">
       <section className="hero">
@@ -33,8 +36,33 @@ const Home = ({ onNavigate }: HomeProps) => {
             Affected Populations (AAP), ensuring that the communities we serve are at the center of 
             everything we do.
           </p>
-          <button className="btn-link" onClick={() => onNavigate('About Us')}>
-            Learn More About Us →
+          
+          {showFullText && (
+            <div className="expanded-content">
+              <p className="intro-text">
+                ERPF is the Organization for Internally Displaced Persons (IDP), Refugees and People With 
+                Disability (PWD). We ensure durable solutions to reduce displacement across the world, we 
+                prioritize affected communities above all those that are vulnerable and prone to protection risk. 
+                We develop programs that are climate and disability inclusive.
+              </p>
+              <p className="intro-text">
+                We are people-centred by doing so, we involve the community from need assessment to proposal 
+                development to implementation and phase-out, we bring relevant stakeholders to the tables where 
+                plans are drawn about them, this has enhanced ownership and build trust in all the communities we work.
+              </p>
+              <p className="intro-text">
+                Our monitoring team is deliberate about community base monitoring where the stakeholders are in 
+                the forefront of the project monitoring, within our years of implementation this has proven very 
+                instrumental in sustainability and continuity.
+              </p>
+            </div>
+          )}
+          
+          <button 
+            className="btn-link" 
+            onClick={() => setShowFullText(!showFullText)}
+          >
+            {showFullText ? 'Show Less ↑' : 'Learn More About Us →'}
           </button>
         </div>
       </section>
