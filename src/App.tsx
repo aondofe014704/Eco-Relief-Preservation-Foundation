@@ -5,6 +5,7 @@ import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import OurWork from './components/OurWork';
 import Impact from './components/Impact';
+import Gallery from './components/Gallery';
 import GetInvolved from './components/GetInvolved';
 import Transparency from './components/Transparency';
 import News from './components/News';
@@ -25,6 +26,8 @@ function App() {
         return <OurWork />;
       case 'Impact':
         return <Impact />;
+      case 'Gallery':
+        return <Gallery />;
       case 'Get Involved':
         return <GetInvolved />;
       case 'Transparency':

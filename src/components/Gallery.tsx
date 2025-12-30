@@ -27,49 +27,49 @@ const Gallery = () => {
   const teamMembers: TeamMember[] = [
     {
       id: 1,
-      name: 'Dr. [Name]',
+      name: 'Dr. Collins Waseen',
       position: 'Executive Director',
       bio: 'Leading ERPF\'s strategic vision and humanitarian operations across Nigeria. Over 15 years of experience in humanitarian response and development.'
     },
     {
       id: 2,
-      name: '[Name]',
+      name: 'Adasu Nicholas Ngutor',
       position: 'Director of Programs',
       bio: 'Oversees all program implementation across Protection, Health, WASH, Nutrition, and Climate sectors. Expert in multisectoral humanitarian coordination.'
     },
     {
       id: 3,
-      name: '[Name]',
+      name: 'Adasu Seember Joy',
       position: 'Head of Protection',
       bio: 'Leads child protection and GBV response programs. Specialized in case management and psychosocial support for vulnerable populations.'
     },
     {
       id: 4,
-      name: '[Name]',
+      name: 'James Brown',
       position: 'Head of Health & Nutrition',
       bio: 'Manages health and nutrition interventions. Expert in maternal and child health, emergency health response, and nutrition programming.'
     },
     {
       id: 5,
-      name: '[Name]',
+      name: 'Perry Wizz',
       position: 'WASH Coordinator',
       bio: 'Coordinates water, sanitation, and hygiene programs. Specialized in emergency WASH response and community-led total sanitation.'
     },
     {
       id: 6,
-      name: '[Name]',
+      name: 'Jack Robinson',
       position: 'Climate & Environment Lead',
       bio: 'Leads climate change mitigation and environmental sustainability initiatives. Expert in climate-smart agriculture and community resilience.'
     },
     {
       id: 7,
-      name: '[Name]',
+      name: 'Jon Snow',
       position: 'Finance & Administration Manager',
       bio: 'Ensures financial accountability and operational efficiency. Manages budgets, compliance, and value for money across all programs.'
     },
     {
       id: 8,
-      name: '[Name]',
+      name: 'Jerry White',
       position: 'Monitoring & Evaluation Officer',
       bio: 'Leads M&E systems, data collection, and impact assessment. Ensures accountability to affected populations and evidence-based programming.'
     }
@@ -260,8 +260,8 @@ const Gallery = () => {
                   <h3>{image.title}</h3>
                   <p className="image-description">{image.description}</p>
                   <div className="image-meta">
-                    <span className="meta-item">📍 {image.location}</span>
-                    <span className="meta-item">📅 {image.date}</span>
+                    <span className="meta-item">{image.location}</span>
+                    <span className="meta-item">{image.date}</span>
                   </div>
                 </div>
               </div>
