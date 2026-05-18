@@ -30,11 +30,7 @@ const Home = ({ onNavigate }: HomeProps) => {
         <div className="container">
           <h2 className="section-title">Who We Are</h2>
           <p className="intro-text">
-            ERPF is a youth-led humanitarian NGO registered with the Corporate Affairs Commission (CAC) 
-            of Nigeria. We deliver multisectoral assistance with a focus on humanitarian response, 
-            development, and climate change mitigation. Our work is grounded in Accountability to 
-            Affected Populations (AAP), ensuring that the communities we serve are at the center of 
-            everything we do.
+            ERPF is a youth driven Humanitarian and Development Organization dedicated to delivering innovative and sustainable solution that benefit both people and the environment. Guided by the principle of 'doing more with less' and community led actions, we work to strengthen resilience promote environmental sustainability and support vulnerable communities. We place great value on our staff and the communities we serve.
           </p>
           
           {showFullText && (

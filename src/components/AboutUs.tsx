@@ -36,20 +36,14 @@ const AboutUs = () => {
               <div className="vm-icon">👁️</div>
               <h3>Our Vision</h3>
               <p>
-                ERPF envisions a world where children, women and girls are safe and empowered, 
-                primarily focusing on those affected by disasters. We ensure equitable access to 
-                humanitarian and developmental assistance. We envisage a community where people 
-                take informed decisions towards mitigation of climate change.
+                We envisage a world where creativity and innovation drive sustainable progress and where all populations are safe, protected, empowered, environmentally aware and actively participating Climate conscious and sustainable development.
               </p>
             </div>
             <div className="vm-card">
               <div className="vm-icon">🎯</div>
               <h3>Our Mission</h3>
               <p>
-                To deliver multisectoral assistance and promote environmental sustainability through 
-                climate impactful innovative solutions and education. To empower communities to recover 
-                from disasters and thrive. To prioritize accountability and person-centered approaches 
-                in our pursuit for durable solutions.
+                To provide lifesaving and sustainable interventions that strengthen resilience reduce vulnerabilities and empower communities to recovery from disasters and poverty through innovative, climate conscious and environmentally responsible approaches.
               </p>
             </div>
           </div>
