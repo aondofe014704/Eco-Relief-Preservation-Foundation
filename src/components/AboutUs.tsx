@@ -29,27 +29,6 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section className="section vision-mission">
-        <div className="container">
-          <div className="vm-grid">
-            <div className="vm-card">
-              <div className="vm-icon">👁️</div>
-              <h3>Our Vision</h3>
-              <p>
-                We envisage a world where creativity and innovation drive sustainable progress and where all populations are safe, protected, empowered, environmentally aware and actively participating Climate conscious and sustainable development.
-              </p>
-            </div>
-            <div className="vm-card">
-              <div className="vm-icon">🎯</div>
-              <h3>Our Mission</h3>
-              <p>
-                To provide lifesaving and sustainable interventions that strengthen resilience reduce vulnerabilities and empower communities to recovery from disasters and poverty through innovative, climate conscious and environmentally responsible approaches.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="section history">
         <div className="container">
           <h2 className="section-title">Our History</h2>

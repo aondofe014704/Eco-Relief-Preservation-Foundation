@@ -22,41 +22,6 @@
   color: var(--medium-gray);
 }
 
-.vision-mission {
-  background-color: var(--light-gray);
-}
-
-.vm-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 40px;
-  margin-top: 40px;
-}
-
-.vm-card {
-  background-color: var(--white);
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.vm-icon {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
-.vm-card h3 {
-  color: var(--primary-green);
-  font-size: 18pt;
-  margin-bottom: 20px;
-}
-
-.vm-card p {
-  font-size: 12pt;
-  line-height: 1.8;
-  color: var(--medium-gray);
-}
 
 .history-content {
   max-width: 900px;
