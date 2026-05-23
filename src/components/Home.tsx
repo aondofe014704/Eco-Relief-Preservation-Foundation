@@ -6,38 +6,219 @@ interface HomeProps {
 }
 
 const protectionItems = [
-  'Child protection',
-  'Gender Base Violence (GBV) prevention and response',
-  'Community safety and risk reduction',
-  'Human right protection',
-  'Environmental and climate protection',
-  'Protection in displacement settings',
+  {
+    title: 'Child protection',
+    content: [
+      'Preventing child abuse, neglect and exploitation',
+      'Supporting family tracing and reunification',
+      'Constructing safe space for children in emergencies',
+      'Providing psychosocial support for affected children',
+      'Positive parenting and adolescent life skills',
+      'Reintegration of children formerly associated with armed groups',
+      'Awareness on child protection, child rights, PSEA, referral pathways and GBV prevention',
+      'Strengthening reporting channels and providing capacity building for aid partners on child protection programming and disability inclusion',
+      'Strengthening of community structures to challenge harmful norms and beliefs',
+      'Providing alternative care placement and formalization for unaccompanied and separated children',
+      'Providing child protection case management',
+    ],
+  },
+  {
+    title: 'Gender Base Violence (GBV) prevention and response',
+    content: [
+      'Awareness campaigns on GBV risk',
+      'Distribution of safe shelter and strengthening referrals for survivors',
+      'Refer medical, access to justice, and psychosocial support for survivors',
+      'Provide GBV case management',
+      'Construct Women and Girls Safe Spaces (WGSS)',
+    ],
+  },
+  {
+    title: 'Community safety and risk reduction',
+    content: [
+      'Establish early warning systems for disaster and conflict',
+      'Strengthen community-based protection committees',
+      'Conduct risk mapping and vulnerability assessment',
+      'Design and implement anticipatory action for at-risk populations',
+    ],
+  },
+  {
+    title: 'Human right protection',
+    content: [
+      'Provide legal aid and right awareness',
+      'Documentation and reporting of abuses',
+      'Improve access to social documentation',
+      'Advocate for vulnerable populations',
+      'Monitoring detention, displacement and discrimination',
+    ],
+  },
+  {
+    title: 'Environmental and climate protection',
+    content: [
+      'Provide protection of ecosystem and biodiversity',
+      'Facilitate climate adaptation for vulnerable communities',
+      'Encourage sustainable resources use',
+    ],
+  },
+  {
+    title: 'Protection in displacement settings',
+    content: [
+      'Conduct IDP and refugee camp safety services',
+      'Provide camp coordination and camp management to IDP and refugee camps',
+      'Prevention of exploitation and trafficking through awareness and dialogue sessions',
+      'Improve access to basic services (water, shelter, NFI and dignity kits)',
+    ],
+  },
 ];
 
 const nutritionItems = [
-  'Management of Acute Malnutrition (MAM & SAM)',
-  'Infant and Young Child Feeding in Emergencies (IYCF-E)',
-  'Blanket Supplementary Feeding Programmes (BSFP)',
-  'Micronutrient Supplementation and Fortification',
-  'Nutrition Screening and Surveillance',
-  'Nutrition Education and Behaviour Change Communication (BCC)',
-  'Food Security and Nutrition-Sensitive Livelihoods',
-  'Nutrition in Emergencies',
+  {
+    title: 'Management of Acute Malnutrition (MAM & SAM)',
+    content: [
+      'Outpatient Therapeutic Programme (OTP) for Severe Acute Malnutrition (SAM) without complications',
+      'Supplementary Feeding Programme (SFP/TSFP) for Moderate Acute Malnutrition (MAM)',
+      'Stabilization Centers for SAM cases with medical complications',
+      'Community mobilization and active case finding',
+    ],
+  },
+  {
+    title: 'Infant and Young Child Feeding in Emergencies (IYCF-E)',
+    content: [
+      'Establish mother-to-mother support groups',
+      'Conduct caregiver counselling sessions',
+      'Conduct community awareness campaigns',
+      'Support for non-breastfed infants under strict guidance',
+    ],
+  },
+  {
+    title: 'Blanket Supplementary Feeding Programmes (BSFP)',
+    content: [
+      'Distribution of fortified foods or specialized nutritious foods',
+      'Seasonal nutrition support during lean periods',
+      'Monitoring nutritional status trends',
+    ],
+  },
+  {
+    title: 'Micronutrient Supplementation and Fortification',
+    content: [
+      'Vitamin A supplementation',
+      'Distribute zinc supplementation for diarrhea management and iron and folic acid supplementation',
+      'Encourage the use of multiple micronutrient powders (MNPs) and salt iodization promotion',
+    ],
+  },
+  {
+    title: 'Nutrition Screening and Surveillance',
+    content: [
+      'MUAC mass screenings',
+      'Conduct growth monitoring',
+      'Conduct SMART surveys',
+      'Hire community nutrition surveillance volunteers',
+    ],
+  },
+  {
+    title: 'Nutrition Education and Behaviour Change Communication (BCC)',
+    content: [
+      'Conduct community dialogues',
+      'Conduct cooking demonstrations',
+      'Identify or establish mother-to-mother support groups',
+      'Establish school nutrition clubs and outreach programs',
+    ],
+  },
+  {
+    title: 'Food Security and Nutrition-Sensitive Livelihoods',
+    content: [
+      'Facilitating linkages of caregivers to smart nutrition-sensitive agriculture',
+      'Provide cash and voucher assistance',
+      'Encourage practices of climate-smart agriculture',
+      'Link pregnant and breastfeeding women and girls to income-generating activities',
+    ],
+  },
+  {
+    title: 'Nutrition in Emergencies',
+    content: [
+      'Provide wet feeding for children, breastfeeding mothers and pregnant women and girls',
+      'Improve access to WASH and health services',
+      'Monitoring of disease outbreaks linked to nutrition',
+    ],
+  },
 ];
 
 const climateItems = [
-  'Climate Action and Environment',
-  'Ecosystem Protection and restoration',
-  'Sustainable and Low carbon practices',
-  'Disaster Risk Reduction (DRR)',
+  {
+    title: 'Climate Action and Environment',
+    content: [
+      'Conduct advocacy with humanitarian partners to incorporate climate actions into humanitarian responses',
+    ],
+  },
+  {
+    title: 'Ecosystem Protection and restoration',
+    content: [
+      'Design and implement tree planting activities',
+      'Facilitate the practice of smart agriculture among farmers and stakeholders',
+    ],
+  },
+  {
+    title: 'Sustainable and Low carbon practices',
+    content: [
+      'Facilitate waste management and smart agricultural practices among farmers',
+      'Provide support with seed stock for farming',
+      'Promote irrigation farming',
+    ],
+  },
+  {
+    title: 'Disaster Risk Reduction (DRR)',
+    content: [
+      'Community risk mapping and vulnerability assessment',
+      'Emergency preparedness and evacuation planning (anticipatory action)',
+      'Training of community-based disaster risk response committees',
+      'Advocate for the construction of climate resilience infrastructure, flood control and drainage maintenance and improvement project',
+    ],
+  },
 ];
 
 const empowermentItems = [
-  'Economic Empowerment',
-  'Women and Girls Empowerment',
-  'Youth Empowerment',
-  'Social Empowerment',
-  'Climate and Environmental empowerment',
+  {
+    title: 'Economic Empowerment',
+    content: [
+      'Provide vocational skills trainings',
+      'Distribute micro grants for small and medium enterprise',
+      'Establish and strengthen VSLA in communities',
+      'Conduct entrepreneurship training',
+    ],
+  },
+  {
+    title: 'Women and Girls Empowerment',
+    content: [
+      'Conduct leadership and decision-making training for women and girls',
+      'Provide support for adolescent girls\' education',
+      'Construct safe spaces for women and adolescent girls',
+      'Conduct advocacy against harmful practices e.g. early marriage and discrimination',
+      'GBV awareness and rights education',
+    ],
+  },
+  {
+    title: 'Youth Empowerment',
+    content: [
+      'Provide digital and ICT skill training',
+      'Provide career guidance and mentorship programs on youth leadership development',
+      'Organise sport events and creative art programs for youth',
+      'Enhance civic engagement and facilitate volunteer opportunities',
+      'Promote youth inclusion in decision making at community level',
+    ],
+  },
+  {
+    title: 'Social Empowerment',
+    content: [
+      'Organise community dialogues and peacebuilding sessions',
+      'Promote civic education through awareness of rights and responsibilities',
+      'Promote inclusion of marginalized groups (Persons with Disabilities, displaced persons)',
+      'Establish and strengthen community-based committees and partners on social empowerment programming',
+      'Conduct advocacy training to amplify community voices',
+    ],
+  },
+  {
+    title: 'Climate and Environmental empowerment',
+    content: [],
+  },
 ];
 
 const educationItems = [
@@ -316,13 +497,24 @@ const Home = ({ onNavigate }: HomeProps) => {
                     onClick={() => toggleAccordion('protection', index)}
                     aria-expanded={openAccordion?.modal === 'protection' && openAccordion?.index === index}
                   >
-                    <span className="accordion-title">{item}</span>
+                    <span className="accordion-title">{item.title}</span>
                     <span className="accordion-chevron">{openAccordion?.modal === 'protection' && openAccordion?.index === index ? '▲' : '▼'}</span>
                   </button>
                   <div className="accordion-body">
-                    <p className="accordion-placeholder">
-                      Detailed content for <strong>{item}</strong> will be added here soon.
-                    </p>
+                    {item.content.length > 0 ? (
+                      <ul className="accordion-content-list">
+                        {item.content.map((point, i) => (
+                          <li key={i} className="accordion-content-item">
+                            <span className="accordion-content-bullet">✦</span>
+                            <span>{point}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="accordion-placeholder">
+                        Detailed content for <strong>{item.title}</strong> will be added here soon.
+                      </p>
+                    )}
                   </div>
                 </div>
               ))}
@@ -350,13 +542,24 @@ const Home = ({ onNavigate }: HomeProps) => {
                     onClick={() => toggleAccordion('nutrition', index)}
                     aria-expanded={openAccordion?.modal === 'nutrition' && openAccordion?.index === index}
                   >
-                    <span className="accordion-title">{item}</span>
+                    <span className="accordion-title">{item.title}</span>
                     <span className="accordion-chevron">{openAccordion?.modal === 'nutrition' && openAccordion?.index === index ? '▲' : '▼'}</span>
                   </button>
                   <div className="accordion-body">
-                    <p className="accordion-placeholder">
-                      Detailed content for <strong>{item}</strong> will be added here soon.
-                    </p>
+                    {item.content.length > 0 ? (
+                      <ul className="accordion-content-list">
+                        {item.content.map((point, i) => (
+                          <li key={i} className="accordion-content-item">
+                            <span className="accordion-content-bullet">✦</span>
+                            <span>{point}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="accordion-placeholder">
+                        Detailed content for <strong>{item.title}</strong> will be added here soon.
+                      </p>
+                    )}
                   </div>
                 </div>
               ))}
@@ -384,13 +587,24 @@ const Home = ({ onNavigate }: HomeProps) => {
                     onClick={() => toggleAccordion('climate', index)}
                     aria-expanded={openAccordion?.modal === 'climate' && openAccordion?.index === index}
                   >
-                    <span className="accordion-title">{item}</span>
+                    <span className="accordion-title">{item.title}</span>
                     <span className="accordion-chevron">{openAccordion?.modal === 'climate' && openAccordion?.index === index ? '▲' : '▼'}</span>
                   </button>
                   <div className="accordion-body">
-                    <p className="accordion-placeholder">
-                      Detailed content for <strong>{item}</strong> will be added here soon.
-                    </p>
+                    {item.content.length > 0 ? (
+                      <ul className="accordion-content-list">
+                        {item.content.map((point, i) => (
+                          <li key={i} className="accordion-content-item">
+                            <span className="accordion-content-bullet">✦</span>
+                            <span>{point}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="accordion-placeholder">
+                        Detailed content for <strong>{item.title}</strong> will be added here soon.
+                      </p>
+                    )}
                   </div>
                 </div>
               ))}
@@ -419,13 +633,24 @@ const Home = ({ onNavigate }: HomeProps) => {
                     onClick={() => toggleAccordion('empowerment', index)}
                     aria-expanded={openAccordion?.modal === 'empowerment' && openAccordion?.index === index}
                   >
-                    <span className="accordion-title">{item}</span>
+                    <span className="accordion-title">{item.title}</span>
                     <span className="accordion-chevron">{openAccordion?.modal === 'empowerment' && openAccordion?.index === index ? '▲' : '▼'}</span>
                   </button>
                   <div className="accordion-body">
-                    <p className="accordion-placeholder">
-                      Detailed content for <strong>{item}</strong> will be added here soon.
-                    </p>
+                    {item.content.length > 0 ? (
+                      <ul className="accordion-content-list">
+                        {item.content.map((point, i) => (
+                          <li key={i} className="accordion-content-item">
+                            <span className="accordion-content-bullet">✦</span>
+                            <span>{point}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="accordion-placeholder">
+                        Detailed content for <strong>{item.title}</strong> will be added here soon.
+                      </p>
+                    )}
                   </div>
                 </div>
               ))}

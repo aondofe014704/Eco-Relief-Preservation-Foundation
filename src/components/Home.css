@@ -540,7 +540,7 @@
 }
 
 .accordion-item.open .accordion-body {
-  max-height: 200px;
+  max-height: 600px;
   padding: 20px 22px;
 }
 
@@ -554,6 +554,30 @@
 .accordion-placeholder strong {
   color: var(--primary-black);
   font-style: normal;
+}
+
+/* Accordion content bullet list */
+.accordion-content-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accordion-content-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 11pt;
+  line-height: 1.7;
+  color: var(--medium-gray);
+}
+
+.accordion-content-bullet {
+  color: var(--primary-green);
+  font-size: 12px;
+  flex-shrink: 0;
+  margin-top: 4px;
 }
 
 /* Education Modal List */
